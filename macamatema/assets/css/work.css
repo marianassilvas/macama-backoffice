@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+main{
+  align-items: top;
+  margin-left: 40px;
+  margin-top: 30px;
+  
+}
+
+.primeiro{
+     position:absolute; 
+     margin-top: 3.9vw;
+}
+.restantes{
+    opacity:0.4;
+}
+
+
+.primeiro:hover{
+    opacity: 1;
+    position: absolute;
+    transition: 0.7s;
+}
+
+  .primeiro:not(:hover){
+    position:absolute;
+    opacity: 0.4;
+    transition: 0.7s;
+}  
+
+.restantes:hover{
+    opacity: 1;
+    position: relative;
+    transition: 0.7s;
+ }
+
+.restantes:not(:hover){
+    opacity: 0.4;
+    transition: 0.7s;
+}
+
+.primeira_box:hover{
+    position: absolute;
+    transition: 0.7s;
+      top:27.343vw; 
+      padding-bottom: 4.6875vw;
+
+ }
+.primeira_box:not(:hover){
+    
+    transition: 0.7s;
+    position: absolute;
+    top:46.875vw;
+
+}
+
+.segunda_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top:13.28vw;
+    padding-bottom: 4.6875vw;
+
+} 
+
+.segunda_box:not(:hover){
+transition: 0.7s;
+position: absolute;
+top:41.40vw;
+}
+
+.terceira_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 21.875vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.terceira_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 40.625vw;
+}
+
+.quarta_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 13.281vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.quarta_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 29.688vw;
+}
+
+.quinta_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 12.5vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.quinta_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 31.25vw;
+}
+
+.sexta_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 23.44vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.sexta_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 34.375vw;
+}
+
+.setima_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 27.343vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.setima_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 42.969vw;
+}
+
+.oitava_box:hover{
+    transition: 0.7s;
+    position: absolute;
+    top: 23.44vw;
+    padding-bottom: 4.6875vw;
+
+}
+
+.oitava_box:not(:hover){
+    transition: 0.7s;
+    position: absolute;
+    top: 34.375vw;
+}
+
+
+h1{
+    float:left;
+    width:27.34375vw;
+    margin-right: 180px;;
+    font-size: 60px;
+  
+}
+
+
+/*
+@media (max-width: 1300px) { /*------------------------------------------1300
+
+}*/
+
+@media (max-width: 1000px) {
+    img{
+        width:50%;
+        max-width: 400px;
+        height:auto;
+    }
+    
+    /*--------------------------------------------------------------1000 laptop*/
+}
+@media (max-width: 700px) {
+    img{
+        width:35%;
+        max-width: 400px;
+        height:auto;
+    }
+    /*------------------------------------------------------------------700 tablet*/
+}
+@media (max-width: 425px) { /*mobile*/
+    img{
+        width:20%;
+        max-width: 400px;
+        height:auto;
+    }
+   
+}
